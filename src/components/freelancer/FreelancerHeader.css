@@ -1,0 +1,28 @@
+.freelancerheader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.2px solid lightgray;
+    padding: 5px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: white
+}
+
+.freelancerheader__left {
+    display: flex;
+    align-items: center;
+}
+
+.freelancerheader__left > img {
+    object-fit: contain;
+    height: 60px;
+    width: 150px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.freelancerheader__right {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,6 @@
+.employer {
+    display: flex;
+    flex-direction: column;
+    background-color:lightgray;
+    background-image : url("https://img.wallpapersafari.com/desktop/1920/1080/36/70/95iSO4.jpg")
+}

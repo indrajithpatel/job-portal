@@ -1,0 +1,67 @@
+.userdetails__form {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.userdetails--horizontal {
+  display: flex;
+}
+
+.userdetails__linkaccount {
+  width: 140px;
+  margin-top: 10px;
+  border: 0.1px solid lightgray;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  background: darkslategray;
+  color: floralwhite;
+  font-size: 15px;
+}
+
+.userdetails__submit {
+  padding: 12px;
+  margin-top: 20px;
+  width: 90px;
+  border: 0.1px solid lightgray;
+  cursor: pointer;
+  background: darkslategray;
+  color: floralwhite;
+  font-size: 16px;
+  width: 125px;
+}
+
+.userdetails__repositories {
+  margin-top: 10px;
+  max-height: 100px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.userdetails__repositories > p {
+  background-color: lightgrey;
+  padding: 10px;
+  /* color: white; */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.userdetails__explore {
+  display: block;
+  padding: 12px;
+  margin-top: 20px;
+  width: 90px;
+  border: 0.1px solid lightgray;
+  cursor: pointer;
+  background: darkslategray;
+  color: floralwhite;
+  font-size: 16px;
+  width: 160px;
+  display: inline-block;
+    margin-left: 10px;
+}

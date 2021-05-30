@@ -1,0 +1,56 @@
+.card {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color:white;
+  box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+p,
+h3,
+h5 {
+  margin: 5px 0px;
+}
+
+.card__candidates {
+  color: #fff;
+    background-color: darkcyan;
+    border-color: whitesmoke;
+    height: 100px;
+    width: 155px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.apply-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+.skill-pad {
+  padding-right: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card__company, .card__location {
+  font-size: 14px;
+  font-weight: 400;
+}
